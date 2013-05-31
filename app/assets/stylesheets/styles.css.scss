@@ -1,6 +1,15 @@
+$navbarBackground: white;
+$navbarBackgroundHighlight: white;
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+$btnPrimaryBackground: red;
+
 @import 'bootstrap';
 
+
+
 body {
+	
 	padding-top: 60px;
 }
 
@@ -14,3 +23,20 @@ body {
 		color: $gray;
 	}
 }
+
+.gen_header {
+
+	font-size: 22px;
+}
+
+.large_H_center {
+
+	text-align: center;
+	font-size: 50px;
+}
+
+.product1 {
+
+	margin-top: 45px;
+}
+
